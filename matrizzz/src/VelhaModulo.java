@@ -14,8 +14,7 @@ public class VelhaModulo {
 
                 }
             }
-            while ()
-        }
+        } while (velha1.length < 5); //é filler
         return 0;
     }
 }
