@@ -1,5 +1,3 @@
-package ads.jogo.da.velha;
-
 import java.util.Scanner;
 
 public class JogoDaVelha {
@@ -40,7 +38,14 @@ public class JogoDaVelha {
 
     }
 
-    public static void inicializarTabuleiro(char[][] tabuleiro) {}
+    public static void inicializarTabuleiro(char[][] tabuleiro) {
+        for (int i = 0; i < 3; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                System.out.print(tabuleiro[i][j]);
+            }
+            System.out.println();
+        }
+    }
 
     public static void exibirTabuleiro(){
         System.out.println("Exibindo o tabuleiro");
