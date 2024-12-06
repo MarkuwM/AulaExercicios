@@ -7,26 +7,30 @@ public class Armazem3d {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (condicao = true) {
+        while (true) {
             iniciarArmazem(armazem);
             mostrarArmazem(armazem);
+            exibirMenu();
 
-            System.out.println("\tMenu");
-            System.out.println("1 - Exibir o armazem");
-            System.out.println("2 - Adicionar produto");
-            System.out.println("3 - Remover produto");
-            System.out.println("4 - Mover produto");
-            System.out.println("5 - Lista produtos abaixo da quantidade minima");
-            System.out.println("6 - Sair");
-            int acao = scanner.nextInt();
-
-            switch (acao) {
+            switch (scanner.nextInt()) {
                 case 1 -> mostrarArmazem(armazem);
+                case 6 -> {
+                    return;
+                }
+                default -> System.out.println("Opção inválida, tente novamente.");
             }
         }
     }
 
-    public static boolean condicao = false;
+    public static void exibirMenu() {
+        System.out.println("\tMenu");
+        System.out.println("1 - Exibir o armazem");
+        System.out.println("2 - Adicionar produto");
+        System.out.println("3 - Remover produto");
+        System.out.println("4 - Mover produto");
+        System.out.println("5 - Lista produtos abaixo da quantidade minima");
+        System.out.println("6 - Sair");
+    }
 
     public static void iniciarArmazem(String[][][] armazem) {
         for (int andar = 0; andar < 3; andar++) {
@@ -48,5 +52,7 @@ public class Armazem3d {
             }
             System.out.println();
         }
+    }
+    public static void adicionarProduto(String[][][] armazem, Scanner scanner) {
     }
 }
