@@ -1,3 +1,5 @@
+package TabelaDeNotas;
+
 import java.util.Scanner;
 
 public class TabelaDeNotasProf {

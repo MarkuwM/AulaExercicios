@@ -1,3 +1,5 @@
+package ExercicioMatriz;
+
 import java.util.Scanner;
 
 public class SomaBordaMatriz {
