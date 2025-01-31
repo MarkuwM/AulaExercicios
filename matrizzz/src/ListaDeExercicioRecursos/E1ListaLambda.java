@@ -10,7 +10,7 @@ public class E1ListaLambda {
         List<Integer> pares = numeros.stream()
                 .filter(n -> n % 2 == 0)
                 .collect(Collectors.toList());
-        System.out.println(pares);  // Saída: [2, 4, 6]
+        System.out.println(pares);
 
     }
 }
