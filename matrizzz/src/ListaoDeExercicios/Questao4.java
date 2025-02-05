@@ -2,7 +2,7 @@ package ListaoDeExercicios;
 
 import java.util.List;
 
-public class Quatro4 {
+public class Questao4 {
     public static void main(String[] args) {
         List<String> palavras = List.of("cachorro", "gato", "elefante", "bicicleta", "java", "python");
 
