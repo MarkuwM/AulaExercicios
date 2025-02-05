@@ -1,6 +1,6 @@
 package ListaDeExercicioRecursos;
 
-public class Questão14 {
+public class Questao14 {
     public static void main(String[] args) {
         String relatorioDeVendas = "Relatorio de Vendas";
         String detalhamentoDasVendas = "As vendas do último mês bateram todas as metas. Todos estão de parabéns!";
@@ -12,7 +12,7 @@ public class Questão14 {
     }
 
     public static String gerarPaginaWeb(String titulo, String conteudo) {
-        String paginaWeb = """
+        return """
                            <html>
                                <head>
                                    <title>%s</title>
@@ -23,6 +23,5 @@ public class Questão14 {
                                </body>
                            </html>
                            """.formatted(titulo, conteudo);
-        return paginaWeb;
     }
 }

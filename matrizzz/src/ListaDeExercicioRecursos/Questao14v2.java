@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 
-public class Questão14v2 {
+public class Questao14v2 {
     public static void main(String[] args) {
         String[] index = {"index.html", "Página Inicial com o Menu das minhas Disciplinas", "Página com o resumo de todas as disciplinas que curso em ADS"};
         String[] programacaoII = {"programacaoII.html", "Programação II", "Disciplina que tem um ótimo professor de programação!"};
