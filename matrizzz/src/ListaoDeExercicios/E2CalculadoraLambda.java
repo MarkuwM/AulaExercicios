@@ -1,4 +1,4 @@
-package ListaDeExercicioRecursos;
+package ListaoDeExercicios;
 
 import java.util.function.BiFunction;
 
