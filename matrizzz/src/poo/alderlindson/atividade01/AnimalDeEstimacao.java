@@ -28,7 +28,7 @@ public class AnimalDeEstimacao {
             case "gato":
                 System.out.println(nome + " faz: Miau");
                 break;
-            case "passaro":
+            case "pássaro":
                 System.out.println(nome + " faz: Curupaco paco");
                 break;
             default:
