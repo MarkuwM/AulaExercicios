@@ -3,7 +3,7 @@ package poo.alderlindson.atividade01;
 public class TesteAnimalDeEstimacao {
     public static void main(String[] args) {
         AnimalDeEstimacao animal1 = new AnimalDeEstimacao("Destruidor", "Cachorro", 5, "Pitbull");
-        AnimalDeEstimacao animal2 = new AnimalDeEstimacao("Xane", "Gato", 3, "Persa");
+        AnimalDeEstimacao animal2 = new AnimalDeEstimacao("Xane", "Gato", 3, "Laranja kkkk");
         AnimalDeEstimacao animal3 = new AnimalDeEstimacao("Louro José", "Pássaro", 1, "Papagaio");
 
         System.out.println("Detalhes do Animal 1");
