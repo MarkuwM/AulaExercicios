@@ -1,4 +1,4 @@
-package aulaPoo.livraria;
+package poo.aula.livraria;
 
 public class Ebook extends Livro{
     private String waterMark;

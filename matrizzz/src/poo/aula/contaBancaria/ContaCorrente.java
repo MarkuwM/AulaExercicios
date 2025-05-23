@@ -1,4 +1,4 @@
-package aulaPoo;
+package poo.aula.contaBancaria;
 
 public class ContaCorrente {
 

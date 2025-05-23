@@ -1,4 +1,4 @@
-package aulaPoo.livraria;
+package poo.aula.livraria;
 
 public class CarrinhoDeCompras {
     public void adiciona(LivroFisico livro){

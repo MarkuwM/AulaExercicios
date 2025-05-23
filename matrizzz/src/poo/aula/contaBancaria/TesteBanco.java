@@ -1,4 +1,4 @@
-package aulaPoo;
+package poo.aula.contaBancaria;
 
 public class TesteBanco {
     public static void main(String[] args) {
