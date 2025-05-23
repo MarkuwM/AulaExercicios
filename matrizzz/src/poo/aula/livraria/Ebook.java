@@ -15,4 +15,14 @@ public class Ebook extends Livro{
         String novoTitulo = titulo + " (Ebook)" + " By: " + getWaterMark();
         super.setTitulo(novoTitulo);
     }
+
+    public boolean aplicaDesconto(double porcentagem) {
+        if (porcentagem > 0.3) {
+            return false;
+        }else {
+            double novoValor = getValor() - (this.getValor() * porcentagem);
+            this.setValor(novoValor);
+            return true;
+        }
+    }
 }
