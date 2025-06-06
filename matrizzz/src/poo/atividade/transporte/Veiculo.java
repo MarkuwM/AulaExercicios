@@ -1,13 +1,11 @@
 package poo.atividade.transporte;
 
 public abstract class Veiculo {
-    private string id;
+    private String id;
     private int quantidadePassageiros;
     private int viagens;
 
-    public abstract double custoViagem();
+    public abstract void fazerViagem();
 
-    public void fazerViagem(){
-    }
-
+    public abstract void custoViagem();
 }
