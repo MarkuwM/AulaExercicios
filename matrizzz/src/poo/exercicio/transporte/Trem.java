@@ -8,4 +8,9 @@ public class Trem extends Veiculo{
     public void fazerViagem() {
         System.out.println("Realizando viagem com o trem");
     }
+
+    @Override
+    public void custoViagem() {
+
+    }
 }
