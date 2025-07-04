@@ -21,6 +21,7 @@ public abstract class Livro {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
     public boolean aplicarDesconto(double porcentagem) {
         if (porcentagem > 0.3) {
             return false;
@@ -30,5 +31,6 @@ public abstract class Livro {
             return true;
         }
     }
+
     public abstract boolean aplicaDesconto(double porcentagemDesconto);
 }

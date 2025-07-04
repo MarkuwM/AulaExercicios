@@ -1,4 +1,4 @@
-package poo.alderlindson.atividade01;
+package poo.atividade.atividade01;
 
 public class TesteAnimalDeEstimacao {
     public static void main(String[] args) {

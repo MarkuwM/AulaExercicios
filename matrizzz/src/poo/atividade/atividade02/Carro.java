@@ -1,4 +1,4 @@
-package poo.alderlindson.atividade02;
+package poo.atividade.atividade02;
 
 public class Carro {
     private String marca;

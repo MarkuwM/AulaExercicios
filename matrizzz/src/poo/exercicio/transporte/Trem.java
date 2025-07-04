@@ -1,4 +1,4 @@
-package poo.atividade.transporte;
+package poo.exercicio.transporte;
 
 public class Trem extends Veiculo{
     private int custoFixo = 10;

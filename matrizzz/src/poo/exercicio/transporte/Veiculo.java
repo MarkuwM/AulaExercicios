@@ -1,4 +1,4 @@
-package poo.atividade.transporte;
+package poo.exercicio.transporte;
 
 public abstract class Veiculo {
     private String id;
