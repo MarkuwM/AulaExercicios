@@ -1,4 +1,4 @@
-package poo.exercicio.ilustrarconceitospoo;
+package poo.exercicio.conceitos;
 
 class Professor {
     String nome;
